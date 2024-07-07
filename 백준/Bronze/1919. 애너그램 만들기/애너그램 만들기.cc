@@ -18,6 +18,7 @@ int main() {
 	int count = 0;
 	for (int i = 0; i < 26; i++) {
 		if (alphabet1[i] != alphabet2[i])
+			//alphabet2의 값이 더 클 수 있기에 절댓값 씌워줌
 			count += abs(alphabet1[i] - alphabet2[i]);
 	}
 	
