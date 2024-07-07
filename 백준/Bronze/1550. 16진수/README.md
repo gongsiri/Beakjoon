@@ -1,3 +1,10 @@
+### 배운 점
+ <p>cin>>hex>>x -> 입력을 16진수로 받아준다.</p>
+ <p>2진법 : bin</p>
+ <p>8진법 : oct</p>
+ <p>10진법 : dec</p>
+ <p>16진법 : hex</p>
+ 
 # [Bronze II] 16진수 - 1550 
 
 [문제 링크](https://www.acmicpc.net/problem/1550) 
