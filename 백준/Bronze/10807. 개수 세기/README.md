@@ -1,3 +1,5 @@
+### 배운 점
+ <p>int* arr= new int[N] -동적할당</p>
 # [Bronze V] 개수 세기 - 10807 
 
 [문제 링크](https://www.acmicpc.net/problem/10807) 
