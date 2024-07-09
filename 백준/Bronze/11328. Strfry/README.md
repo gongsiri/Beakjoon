@@ -1,3 +1,7 @@
+### 배운 점
+ <p>되도록이면 endl보단 \n을 쓰자</p>
+ <p>배열을 쓸 땐 케이스 마다 초기화를 해줘야 함 (루프 문 주의)</p>
+
 # [Bronze II] Strfry - 11328 
 
 [문제 링크](https://www.acmicpc.net/problem/11328) 
