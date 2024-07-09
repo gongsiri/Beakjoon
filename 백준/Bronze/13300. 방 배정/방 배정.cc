@@ -1,26 +1,32 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-	int K, N,S,Y;
-	int arr[2][7]{};
-	int num = 0;
-	cin >> N >> K;
+	int N, K, S, Y;
+	int male[7] = { 0 };
+	int female[7] = { 0 };
+	int room=0;
 
+	cin >> N >> K;
 	for (int i = 0; i < N; i++) {
 		cin >> S >> Y;
-		arr[S][Y]++;
+		if (S == 0)
+			female[Y]++;
+		else
+			male[Y]++;
 	}
 
-	for (int i = 0; i < 2; i++) {
-		for (int j = 0; j < 7; j++) {
-			if (arr[i][j] != 0) {
-				num += arr[i][j] / K;
-
-				if (arr[i][j] % K != 0)
-					num++;
-			}
-		}
+	for (int i = 1; i <= 6; i++) {
+		if (male[i] % K == 0)
+			room += male[i] / K;
+		else
+			room += male[i] / K + 1;
 	}
-    cout<<num;
+	for (int i = 1; i <= 6; i++) {
+		if (female[i] % K == 0)
+			room += female[i] / K;
+		else
+			room += female[i] / K + 1;
+	}
+	cout << room;
 }
