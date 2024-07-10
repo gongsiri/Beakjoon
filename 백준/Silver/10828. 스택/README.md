@@ -1,3 +1,8 @@
+### 배운 점
+<p>스택의 기본 사용법</p>
+<p>스택 stack<자료형> s</p>
+<p>s.push(num) s.pop s.top s.empty s.size</p>
+	
 # [Silver IV] 스택 - 10828 
 
 [문제 링크](https://www.acmicpc.net/problem/10828) 
